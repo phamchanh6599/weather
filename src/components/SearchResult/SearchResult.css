@@ -1,0 +1,41 @@
+.search-result {
+    max-width: 500px;
+}
+
+.search-result-area {
+    font-weight: 500;
+}
+
+.search-result-main {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.search-result-info {
+    display: flex;
+}
+
+.search-result-info-title {
+    font-weight: 500;
+    color: #666666;
+    width: 30%;
+}
+
+.search-result-info-text {
+    font-weight: 500;
+    color: #000;
+    width: 70%;
+}
+
+.search-result {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.search-result-main {
+    display: flex;
+    align-items: center;
+}
